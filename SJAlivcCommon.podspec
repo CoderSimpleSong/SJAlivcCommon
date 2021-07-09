@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJAlivcCommon'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '阿里云播放器的工具类'
 
 # This description is used to generate tags and improve search results.
@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
 
    s.static_framework = true
 
-   s.dependency 'AFNetworking'
+   s.dependency 'AFNetworking', "~> 3.1.0"
 
    s.dependency 'FMDB'
 
